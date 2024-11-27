@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
-//1-1. 큰 수 출력하기
+//2-1. 큰 수 출력하기
 public class Solution_1 {
     public boolean[] solution(int n, int[] arr){
         boolean[] answer = new boolean[n];

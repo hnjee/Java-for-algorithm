@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
-//1-2. 보이는 학생
+//2-2. 보이는 학생
 public class Solution_2 {
     public int solution(int n, int[] arr){
         int answer = 1;
