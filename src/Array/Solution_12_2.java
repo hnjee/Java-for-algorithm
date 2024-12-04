@@ -2,7 +2,7 @@ package Array;
 import java.util.Scanner;
 
 //2-12. 멘토링 (4중 for문 - 하나하나 비교)
-public class Solution12_2 {
+public class Solution_12_2 {
     public int solution(int n, int m, int[][] arr){
         int answer = 0;
         for(int i=1; i<=n; i++){
@@ -27,7 +27,7 @@ public class Solution12_2 {
     }
 
     public static void main(String[] args){
-        Solution12_2 T = new Solution12_2();
+        Solution_12_2 T = new Solution_12_2();
         Scanner kb = new Scanner(System.in);
         int n=kb.nextInt();
         int m=kb.nextInt();

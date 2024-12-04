@@ -2,7 +2,7 @@ package Array;
 import java.util.Scanner;
 
 //2-12. 멘토링 (answer 배열 추가해서 시간복잡도 낮추기)
-public class Solution12 {
+public class Solution_12 {
     public int solution(int n, int m, int[][] arr){
         int[][] answer = new int[n][n];
         int cnt = 0;
@@ -25,7 +25,7 @@ public class Solution12 {
     }
 
     public static void main(String[] args){
-        Solution12 T = new Solution12();
+        Solution_12 T = new Solution_12();
         Scanner kb = new Scanner(System.in);
         int n=kb.nextInt();
         int m=kb.nextInt();
