@@ -1,8 +1,9 @@
-package Two_pointers;
+package Two_pointers_Sliding_window;
 
 import java.util.Scanner;
 
-//3-1. 두 배열 합치기
+//3-1. 두 배열 합치기 (Two pointers)
+//Two pointers: 1차원 배열에서 각자 다른 원소를 가리키고 있는 2개의 포인터를 조작해가면서 원하는 값을 찾을 때 까지 탐색하는 알고리즘
 public class Solution_1 {
     public int[] solution(int n, int m, int[] arr1, int[] arr2){
         int[] answer = new int[n+m];

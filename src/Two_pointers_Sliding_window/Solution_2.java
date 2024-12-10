@@ -1,8 +1,8 @@
-package Two_pointers;
+package Two_pointers_Sliding_window;
 
 import java.util.*;
 
-//3-2. 공통원소 찾기
+//3-2. 공통원소 찾기 (Two pointers)
 public class Solution_2 {
     public ArrayList<Integer> solution(int n, int m, int[] arr1, int[] arr2){
         ArrayList<Integer> list = new ArrayList<>();
